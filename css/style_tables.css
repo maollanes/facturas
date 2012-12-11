@@ -1,0 +1,120 @@
+/* ==== Hoja de estilos de las tablas de interfases ==== */
+
+/* =============================================== */
+/* Programador y Diseñador: Fabián Muñoz Flores    */
+/* Universidad Tecnológica del Estado de Zacatecas */
+/* =============================================== */
+
+a:link, a:visited, a:active { text-decoration: none }
+
+/* -- Tabla información principal Index -- */
+.tabla_info{
+	margin-top: 10px;
+	margin-right: 0;
+	margin-left: 0;
+	margin: auto;
+	width: 800px;
+	height: 245px;
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: small;
+}
+
+.header_table{
+	height: 30px;
+	font-size: medium;
+}
+
+.tabla_info ul{
+	text-align: left;
+	margin-top: -70px;
+	margin-left: 20px;
+}
+
+.tabla_info ul a{
+	margin-top: 5px;
+	color: #585858;
+}
+
+.head1, .head2 , .head3{
+	color: white;
+	border-radius: 15px 0px 0px 0px;
+	background: rgb(204,4,7); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(204,4,7,1) 0%, rgba(183,3,6,1) 44%, rgba(193,0,3,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,4,7,1)), color-stop(44%,rgba(183,3,6,1)), color-stop(100%,rgba(193,0,3,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(204,4,7,1) 0%,rgba(183,3,6,1) 44%,rgba(193,0,3,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(204,4,7,1) 0%,rgba(183,3,6,1) 44%,rgba(193,0,3,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(204,4,7,1) 0%,rgba(183,3,6,1) 44%,rgba(193,0,3,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(204,4,7,1) 0%,rgba(183,3,6,1) 44%,rgba(193,0,3,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0407', endColorstr='#c10003',GradientType=0 ); /* IE6-9 */
+}
+
+.head2{
+	border-radius: 0px 0px 0px 0px;
+}
+
+.head3{
+	border-radius: 0px 15px 0px 0px;
+}
+
+/* Tabla Indicadores */
+
+.cell-top{
+	background-color: #D8D8D8;
+}
+
+.border-collapse-s{
+	border-collapse:collapse;
+}
+.cell-format-s{
+	border:1px #B7B7B7 solid;
+	height:18px;
+	margin: auto;
+}
+.cell-format-red-s{
+	border:1px #C0504D solid;
+	height:18px;
+	text-align:left;
+}
+.cell-light-s{
+	background-color:#FFFFFF;
+}
+.cell-shadow-s{
+	background-color:#E6EED5;
+}
+.cell-shadow-red-s{
+	background-color:#EFD3D2;
+}
+.cell-talign-s{
+	text-align:center;
+}
+.cell-title-s{
+	color: white;
+	height:31px;
+	margin-left: 20px;
+	text-align:left;
+	background: rgb(255,48,25); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(207,4,4,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+
+.cell-title-red-s {
+	background-color:#C0504D;
+	color:#FFFFFF;
+	height:28px;
+	text-align:left;
+}
+
+.font-table-s {
+	color: #5B5B5B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.table-format-s {
+	width: 100%;
+}

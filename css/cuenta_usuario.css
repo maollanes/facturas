@@ -1,0 +1,321 @@
+/* ==== Hoja de estilos de los diferentes div en index.html ==== */
+
+/* =============================================== */
+/* Programador y Diseñador: Fabián Muñoz Flores    */
+/* Universidad Tecnológica del Estado de Zacatecas */
+/* =============================================== */
+
+.table-calificaciones{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: auto;
+	width: 850px;
+	border: 1px solid grey;
+	border-radius: 15px;
+}
+
+.title-table{
+	margin: auto;
+	margin-top: 4px;
+	width: 99%;
+	height: 28px;
+	border: 1px solid grey;
+	border-radius: 10px 10px 0px 0px;
+	background: rgb(175,175,175); /* Old browsers */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FmYWZhZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NDQ0NDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(175,175,175,1) 0%, rgba(68,68,68,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(175,175,175,1)), color-stop(100%,rgba(68,68,68,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(175,175,175,1) 0%,rgba(68,68,68,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(175,175,175,1) 0%,rgba(68,68,68,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(175,175,175,1) 0%,rgba(68,68,68,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(175,175,175,1) 0%,rgba(68,68,68,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afafaf', endColorstr='#444444',GradientType=0 ); /* IE6-8 */
+}
+
+.title-table h2{
+	margin-top: 3px;
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+/* Tabla de Busqueda */
+
+.table-control{
+	margin: auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 70%;
+}
+
+/* Tabla de información */
+
+.div_table{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 90%;
+	text-align: left;
+}
+
+.table-info{
+	margin: auto;
+	width: 100%;
+}
+
+.table-info-alum{
+	margin: auto;
+	width: 70%;
+}
+
+.info_varias{
+	margin: auto;
+	width: 90%;
+	border: 0px solid grey;
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;	
+}
+
+/* =========== Facturas ============ */
+
+.info-user{
+	border-bottom: 1px solid #D8D8D8;
+	margin-top: 10px;
+	padding-bottom: 15px; 
+}
+
+.cont-info{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+	width: 55%;
+	height: 113px;
+	border-radius: 10px;
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */	
+}
+
+.cont-logo{
+	float: right;
+	border: 0px solid red;
+	width: 25%;
+	height: 160px;
+}
+
+.table-info{
+	margin-top: 10px;
+	width: 90%;
+	text-align: left;
+}
+
+.table-info h2{
+	font-family: 'trebuchet MS', 'Lucida sans', Arial;
+	font-size: 15px;
+	color: #444;
+}
+
+.td-info{
+	width: 80px; 
+}
+
+.cont-fact{
+	margin-top: 20px;
+	border: 0px solid #ccc;
+	border-radius: 10px;
+}
+
+.cont-fact h2{
+	font-family: 'trebuchet MS', 'Lucida sans', Arial;
+	font-size: 18px;
+	color: #444;
+}
+
+/*----------------- Tabla Facturas ----------------*/
+
+.title-table-fact{
+	margin-top: 10px;
+	height: 30px;
+}
+
+.table-fact {
+	font-family: 'trebuchet MS', 'Lucida sans', Arial;
+	border-spacing: 0;
+    font-size: 15px;
+    color: #444;	
+	width: 100%;
+	margin: auto;
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;         
+}
+
+.table-fact tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    
+    
+.table-fact td, .table-fact th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;    
+}
+
+.table-fact th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+}
+
+.table-fact td:first-child, .table-fact th:first-child {
+    border-left: none;
+}
+
+.table-fact th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.table-fact th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.table-fact th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.table-fact tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.table-fact tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+/*-------------------------------------------------*/
+
+.botones-fact{
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	width: 50%;
+	height: 40px;
+	border-radius: 10px;
+}
+
+/*------ Botones -------*/
+
+.cont-button{
+	margin-right: 20px;
+	display: inline-block;
+	margin-top: 2px;
+}
+
+.cont-button2{
+	display: inline-block;
+	margin-top: 2px;
+}
+
+.button{
+	height: 20px;
+	width: 110px;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	padding: 6px 20px;
+	margin: 0;
+	cursor: pointer;
+	border: 1px solid #bbb;
+	overflow: visible;
+	font: bold 13px arial, helvetica, sans-serif;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #555;
+	background-color: #ddd;
+	background-image: linear-gradient(top, rgba(255,255,255,1),
+	                                     rgba(255,255,255,0)),
+	                url(data:image/png;base64,iVBORw0KGg[...]QmCC); 
+	transition: background-color .2s ease-out;
+	background-clip: padding-box; /* Fix bleeding */
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .3),
+	          0 2px 2px -1px rgba(0, 0, 0, .5),
+	          0 1px 0 rgba(255, 255, 255, .3) inset;
+	text-shadow: 0 1px 0 rgba(255,255,255, .9);  
+}
+
+.button:hover{
+	background-color: #eee;
+	color: #555;
+}
+
+.button:active{
+	background: #e9e9e9;
+	position: relative;
+	top: 1px;
+	text-shadow: none;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+}
+
+/*---------------------------*/
+
+.info-fact{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border: 0px solid #ccc;
+	height: 60px;
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+.info{
+	border: 0px solid #ccc;
+	width: 90%;
+	margin-top: 10px;
+	margin: auto;
+	height: 55px;
+	text-align: left;
+}
+
+.info span{
+	font-family: 'trebuchet MS', 'Lucida sans', Arial;
+	color: #444;
+	font-size: small;
+}
+
+.stop{
+	clear: both;
+}

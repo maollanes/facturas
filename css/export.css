@@ -1,0 +1,89 @@
+/* ====== Hoja de estilos de exportaciones ======= */
+
+/* =============================================== */
+/* Programador y Diseñador: Fabián Muñoz Flores    */
+/* Universidad Tecnológica del Estado de Zacatecas */
+/* =============================================== */
+
+@font-face{
+font-family: ubuntuRegular;
+src: url(fuentes/Ubuntu-R.ttf) format('truetype');
+}
+
+@font-face{
+font-family: ubuntuBold;
+src: url(fuentes/Ubuntu-B.ttf) format('truetype');
+}
+
+@font-face{
+font-family: ubuntuItalic;
+src: url(fuentes/Ubuntu-I.ttf) format('truetype');
+}
+
+@font-face{
+font-family: ubuntuBoldItalic;
+src: url(fuentes/Ubuntu-BI.ttf) format('truetype');
+}
+
+@font-face{
+font-family: calibri;
+src: url(fuentes/calibri.ttf) format('truetype');
+}
+
+h1,h2,h3,h4,h5{
+	font-family: ubuntuBold;
+}
+
+A:link, A:visited, A:active { text-decoration: none }
+
+/* Clase para exportar a Excel */
+.botonExcel{
+	cursor:pointer;
+	margin-top: 7px;
+	margin-left: 5px;
+}
+
+#exportDiv{
+	margin-bottom: 5px;
+	height: 44px;
+	width: 155px;
+	border: 1px solid #ccc;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-o-border-radius: 8px 8px 8px 8px;
+}
+
+#exportDiv span{
+	font-size: small;
+	margin: auto;
+	margin-bottom: 20%;
+	margin-left: 10px;
+	font-family: ubuntuBold;
+}
+
+/*  Ventana PopPup */
+#pop{
+	margin: auto;
+	float: right;
+	margin-top: -50px;
+	width: 155px;
+	height: 44px;
+	border: 1px solid #ccc;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-o-border-radius: 8px 8px 8px 8px;
+}
+
+#pop span{
+	margin: auto;
+	width: 100px;
+	border: solid 1px green;
+}
+
+#pop a{
+	font-size: small;
+	font-family: ubuntuBold;
+	color: black;
+}

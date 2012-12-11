@@ -1,0 +1,29 @@
+/* ==== Hoja de estilos de los diferentes div en index.html ==== */
+
+/* =============================================== */
+/* Programador y Diseñador: Fabián Muñoz Flores    */
+/* Universidad Tecnológica del Estado de Zacatecas */
+/* =============================================== */
+
+.cont_objetivo{
+	margin: auto;
+	width: 95%;
+	height: 300px;
+	margin-top: 50px;
+}
+
+.barra{
+	margin: auto;
+	width: 94%;
+	height: 10px;
+	background-color: green;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.cont_objetivo h2{
+	text-align: left;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: medium;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html lang="es-MX">
+	<head>
+		<title>Control Escolar</title>
+		<meta charset="UTF-8"/>
+		<link rel="shortcut icon" href="images/favicon.png"/>
+		<link rel="stylesheet" href="css/style_main.css"/>
+		<link rel="stylesheet" href="css/nav-style.css"/>
+		<link rel="stylesheet" href="css/style_tables.css"/>
+	   	<link rel="stylesheet" href="css/default.css"/>
+	    <link rel="stylesheet" href="css/nivo-slider.css"/>
+	    <link rel="stylesheet" href="css/login.css"/>
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+	    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	    <script type="text/javascript" src="js/login.js"></script>
+	    <script type="text/javascript">
+		    $(window).load(function() {
+		        $('#slider').nivoSlider(
+		        	{
+		        		effect: 'random',
+		        		pauseTime: 5000
+		        	});
+		    });
+	    </script>
+	</head>
+	<body>
+		<div class="master">
+			<div class="cont_login">
+	        	<!-- Login Starts Here -->
+	            <div id="loginContainer">
+	                <a href="#" id="loginButton"><span>Login</span><em></em></a>
+	                <div style="clear:both"></div>
+	                <div id="loginBox">                
+	                    <form id="loginForm" name="form_login" method="post" action="cmd/login.php">
+	                        <fieldset id="body">
+	                            <fieldset>
+	                                <label for="email">Usuario</label>
+	                                <input type="text" name="txtUsuario" id="email" required/>
+	                            </fieldset>
+	                            <fieldset>
+	                                <label for="password">Contraseña</label>
+	                                <input type="password" name="txtPassword" id="password" required/>
+	                            </fieldset>
+	                            <input type="submit" id="login" value="Entrar" />
+	                            <label for="checkbox"><input type="checkbox" id="checkbox" />Recuerdame</label>
+	                        </fieldset>
+	                        <span><a href="#">Olvistaste tu contraseña?</a></span>
+	                    </form>
+	                </div>
+	            </div>
+	            <!-- Login Ends Here -->
+			</div>
+			<div class="master_2">
+				<header>
+					<h2></h2>
+				</header>
+				<div class="nav">
+					<div class="menu">
+					<div id="menu_i"></div>	<div id="menu_d"></div>
+					<ul>
+						<li><a href="index.php">Inicio</a></li>
+						<li><a href="">Trámites</a>
+						<ul><span></span>
+							<li><a href="section/construccion.html">° Admisión</a></li>
+							<li><a href="section/construccion.html">° Inscripción</a></li>
+							<li><a href="section/construccion.html">° Solicitud de Documentos</a></li>
+							<li><a href="section/construccion.html">° Costos</a></li>
+							<li><a href="section/construccion.html">° Becas</a></li>
+						</ul>
+						</li>					
+						<li><a href="">Ofertas Educativas</a>
+						<ul><span></span>
+							<li><a href="section/construccion.html">° Sistemas Informáticos</a></li>
+							<li><a href="section/construccion.html">° Mecatrónica</a></li>
+							<li><a href="section/construccion.html">° Procesos Industriales</a></li>
+							<li><a href="section/construccion.html">° Desarrollo de Negocios</a></li>
+						</ul>
+						</li>
+						<li><a href="section/estadisticas/indicadores.php">Estadísticas</a></li>
+						<li><a href="">Quienes Somos</a>
+						<ul><span></span>
+							<li><a href="section/objetivo.html">° Objetivo</a></li>
+							<li><a href="section/construccion.html">° Historia</a></li>
+							<li><a href="section/construccion.html">° Servicios</a></li>
+						</ul>
+						</li>
+					</ul>
+					</div>
+					<div class="login">
+					</div>
+				</div>
+				<div class="body">
+					<div id="error-acceso">
+						<h2>Acceso Denegado</h2>
+						<p>Intente ingresando correctamente su usuario, o pongase en contacto con el administrador del sistema.</p>
+					</div>
+					<div class="info">
+						<h2>MENÚ DE INFORMACIÓN PRINCIPAL</h2>
+						<div class="cont_info">
+							<table class="tabla_info" border="0">
+								<div>
+									<tr class="header_table">
+										<td class="head1">Principal</td>
+										<td class="head2">Convocatorias</td>
+										<td class="head3">Avisos</td>
+									</tr>
+								</div>
+								<tr>
+									<td style="width:260px">
+										<ul>
+											<li><a href="#"><span>CALENDARIO ESCOLAR</span></a></li>
+											<li><a href="#"><span>FORMATOS</span></a></li>
+											<li><a href="#"><span>TRÁMITES</span></a></li>
+											<li><a href="#"><span>ESTADÍSTICAS</span></a></li>
+											<li><a href="#"><span>BECAS</span></a></li>
+											<li><a href="#"><span>CALIFICACIONES ALUMNOS</span></a></li>
+										</ul>
+									</td>
+									<td style="width:260px">
+										<ul>
+											<li><a href="#"><span>Becas Universitarias</span></a></li>
+											<li><a href="#"><span>Becas Bécalos</span></a></li>
+											<li><a href="#"><span>Becas Pronabes</span></a></li>
+											<li><a href="#"><span>Becas Alimenticias</span></a></li>
+											<li><a href="#"><span>Convocatoria Inscripción</span></a></li>
+											<li><a href="#"><span>Convocatoria Re-Inscripción</span></a></li>
+										</ul>
+									</td>
+									<td style="width:260px;padding-right:15px;">
+										<ul>
+											<li><a href="#"><span>Titulación Alumnos Generación 2008-2012</span></a></li>
+											<li><a href="#"><span>Promoción Inscripciones 2012</span></a></li>
+											<li><a href="#"><span>Concurso "Crea algo bonito"</span></a></li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<footer>
+				<table width="100%" cellspacing="1" cellpadding="0" border="0">
+					<tr>
+						<td>
+							<a class="mainlevel" href="">Escuela Normal Rolando Mota</a><span class="mainlevel"> &bull; </span>
+							<a class="mainlevel" href="">Trámites de Becas</a><span class="mainlevel"> &bull; </span>
+							<span class="mainlevel"> &bull; </span><a class="mainlevel" href="">Calendario Escolar</a>
+							<span class="mainlevel"> &bull; </span><a class="mainlevel" href="">Tramites</a>
+						</td>
+					</tr>
+				</table>
+				</footer>
+			     <div class="footer">
+		            <span class="separator">
+		                <span>Derechos Reservados &copy; 2012 - Institución de Esducación - Escuela Normal Rolando Mota
+		                    <br  />
+		                    Calle Blink No. 182, C.P. 98618, Guadalupe, Zacatecas, México.</span>
+		            </span>
+	        	</div>
+	        	<div style="margin-top:10px;border:1px solid white;"></div>
+			</div>
+		</div>
+	</body>
+</html>

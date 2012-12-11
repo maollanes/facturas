@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<NeroCoverDesignerFile Version="3.1" DocType="Document">
+    <DocName>
+        <Lang Family="es-ES" Name="Nuevo" />
+    </DocName>
+    <TemplateName></TemplateName>
+    <MetaInfo />
+    <BoxType Type="1" />
+    <ProjectData>
+        <SaveTime>1345249813</SaveTime>
+        <PrintTime>0</PrintTime>
+        <Title></Title>
+        <Artist></Artist>
+        <Year>0</Year>
+        <CDInfo Size="1">
+            <CD>
+                <Type>1</Type>
+                <Title></Title>
+                <Artist></Artist>
+                <FileSystemData Size="0" />
+                <AudioData>
+                    <TrackInfo Size="0" />
+                </AudioData>
+            </CD>
+        </CDInfo>
+    </ProjectData>
+    <Thumbnails Size="4">
+        <Thumbnail Name="Nuevo_1.bmp" Size="19240" DIBFormat="1" DIBFileName="" />
+        <Thumbnail Name="Nuevo_2.bmp" Size="19240" DIBFormat="1" DIBFileName="" />
+        <Thumbnail Name="Nuevo_3.bmp" Size="19240" DIBFormat="1" DIBFileName="" />
+        <Thumbnail Name="Nuevo_4.bmp" Size="19240" DIBFormat="1" DIBFileName="" />
+    </Thumbnails>
+    <SubDocs Size="4">
+        <SubDoc Type="1">
+            <PaperStock FixedLayout="0" Orientation="0">
+                <Name>Normal Paper</Name>
+                <Size x="4204.000000" y="5946.000000" />
+                <ItemInfo Size="0" />
+            </PaperStock>
+            <Face>
+                <Properties Size="2">
+                    <Property Class="CBrushProperty">
+                        <Brush HatchColor="0" Style="1" Color="16777215" Hatch="0" />
+                    </Property>
+                    <Property Class="CBitmapProperty">
+                        <BitmapProperty SupportStretchModes="1" Stretch="1" Name="Nuevo_5.bmp" Size="0" />
+                    </Property>
+                </Properties>
+            </Face>
+            <CoverElements>
+                <ElementContainer Size="0" />
+            </CoverElements>
+            <AuxLines>
+                <ElementContainer Size="0" />
+            </AuxLines>
+        </SubDoc>
+        <SubDoc Type="30">
+            <PaperStock FixedLayout="0" Orientation="0">
+                <Name>Normal Paper</Name>
+                <Size x="4204.000000" y="5946.000000" />
+                <ItemInfo Size="0" />
+            </PaperStock>
+            <Face>
+                <Properties Size="2">
+                    <Property Class="CBrushProperty">
+                        <Brush HatchColor="0" Style="1" Color="16777215" Hatch="0" />
+                    </Property>
+                    <Property Class="CBitmapProperty">
+                        <BitmapProperty SupportStretchModes="1" Stretch="1" Name="Nuevo_6.bmp" Size="0" />
+                    </Property>
+                </Properties>
+            </Face>
+            <CoverElements>
+                <ElementContainer Size="0" />
+            </CoverElements>
+            <AuxLines>
+                <ElementContainer Size="0" />
+            </AuxLines>
+        </SubDoc>
+        <SubDoc Type="2">
+            <PaperStock FixedLayout="0" Orientation="0">
+                <Name>Normal Paper</Name>
+                <Size x="4204.000000" y="5946.000000" />
+                <ItemInfo Size="0" />
+            </PaperStock>
+            <Face>
+                <Properties Size="2">
+                    <Property Class="CBrushProperty">
+                        <Brush HatchColor="0" Style="1" Color="16777215" Hatch="0" />
+                    </Property>
+                    <Property Class="CBitmapProperty">
+                        <BitmapProperty SupportStretchModes="1" Stretch="1" Name="Nuevo_7.bmp" Size="0" />
+                    </Property>
+                </Properties>
+            </Face>
+            <CoverElements>
+                <ElementContainer Size="0" />
+            </CoverElements>
+            <AuxLines>
+                <ElementContainer Size="0" />
+            </AuxLines>
+        </SubDoc>
+        <SubDoc Type="4">
+            <PaperStock FixedLayout="0" Orientation="0">
+                <Name>Normal Paper</Name>
+                <Size x="4204.000000" y="5946.000000" />
+                <ItemInfo Size="0" />
+            </PaperStock>
+            <Face>
+                <Properties Size="2">
+                    <Property Class="CBrushProperty">
+                        <Brush HatchColor="0" Style="1" Color="16777215" Hatch="0" />
+                    </Property>
+                    <Property Class="CBitmapProperty">
+                        <BitmapProperty SupportStretchModes="1" Stretch="2" Name="Nuevo_8.bmp" Size="820504" DIBFormat="0" DIBFileName="escudo.png" />
+                    </Property>
+                </Properties>
+            </Face>
+            <CoverElements>
+                <ElementContainer Size="1">
+                    <Element Class="CLine">
+                        <Points Size="2">
+                            <Point x="-678" y="-461" />
+                            <Point x="-70" y="-346" />
+                        </Points>
+                        <Matrix>
+                            <MatrixValue Value="1.000000" />
+                            <MatrixValue Value="0.000000" />
+                            <MatrixValue Value="0.000000" />
+                            <MatrixValue Value="0.000000" />
+                            <MatrixValue Value="1.000000" />
+                            <MatrixValue Value="0.000000" />
+                        </Matrix>
+                        <Properties Size="1">
+                            <Property Class="CPenProperty">
+                                <Pen Style="0" Color="0" x="1" y="0" />
+                            </Property>
+                        </Properties>
+                    </Element>
+                </ElementContainer>
+            </CoverElements>
+            <AuxLines>
+                <ElementContainer Size="0" />
+            </AuxLines>
+        </SubDoc>
+    </SubDocs>
+</NeroCoverDesignerFile>
